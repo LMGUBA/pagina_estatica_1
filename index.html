@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>miyoideal</title>
+    <title>pagina en desarrollo</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -94,6 +94,20 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+
+      .blue-section {
+      background: linear-gradient(90deg, rgba(5,0,74,1) 5%, rgba(9,21,107,1) 50%, rgba(56,0,255,1) 93%, rgba(15,0,177,1) 100%);
+      color: #fff; /* Color del texto, puedes ajustar este valor según tus preferencias */
+    }
+
+    .color-white {
+        color: #ffffffc2;
+    }
+    .color-black{
+      background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(3,11,64,1) 49%, rgba(4,4,4,1) 89%, rgba(0,0,0,1) 100%);
+    }
+
+      
     </style>
 
     
@@ -170,7 +184,7 @@
       </div>
     </div>
   </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
+  <div class="navbar navbar-dark color-black shadow-sm">
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
         <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
@@ -183,13 +197,13 @@
   </div>
 </header>
 
-<main>
+<main class=" blue-section">
 
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Catalogo de productos</h1>
-        <p class="lead text-body-secondary">A continuación, le presentamos nuestro exclusivo catálogo de productos que abarca tanto la línea de nutrición Fuxion como los productos de belleza de las reconocidas marcas Natura y Evon. Descubra una amplia gama de opciones para mejorar su bienestar y realzar su belleza, todo en un solo lugar.</p>
+        <p class="lead color-white">A continuación, le presentamos nuestro exclusivo catálogo de productos que abarca tanto la línea de nutrición Fuxion como los productos de belleza de las reconocidas marcas Natura y Evon. Descubra una amplia gama de opciones para mejorar su bienestar y realzar su belleza, todo en un solo lugar.</p>
         <p>
           <a href="#" class="btn btn-primary my-2">Productos Fuxion</a>
           <a href="#" class="btn btn-secondary my-2">Productos Natura y Evon</a>
@@ -361,3 +375,4 @@
 
     </body>
 </html>
+
